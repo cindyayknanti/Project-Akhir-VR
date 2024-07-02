@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR Edukasi Hewan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://img.freepik.com/free-vector/cute-wild-animals-forest_1308-114038.jpg?t=st=1719893450~exp=1719897050~hmac=6b391094a59424f7bc340cdac7b03f1542ded1e02204c07f1ba7b4b372bda129&w=1380');
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      background-color: rgba(42, 212, 4, 0.8);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 90%;
+      position: relative;
+      overflow: hidden;
+    }
+    .title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .button {
+      display: inline-block;
+      width: 100px; /* Lebar tombol */
+      height: 100px; /* Tinggi tombol */
+      margin: 0 10px; /* Jarak antar tombol */
+      font-size: 18px;
+      border: none;
+      border-radius: 50%; /* Membuat tombol bulat dengan border-radius 50% */
+      background-color: #ff8c00; /* Warna orange */
+      color: white;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      line-height: 1.4;
+    }
+    .button:hover {
+      background-color: #ff7f00; /* Warna orange lebih gelap saat dihover */
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    }
+    .button:focus {
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Augmented Reality Animal</div>
+    <div class="buttons">
+      <a href="camera.html" class="button">Mulai</a>
+      <a href="markers.html" class="button">Markers</a>
+      <a href="guide.html" class="button">Panduan</a>
+    </div>
+  </div>
+</body>
+</html>
